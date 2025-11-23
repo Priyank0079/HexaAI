@@ -1,0 +1,60 @@
+
+@import "tailwindcss";
+/* *{
+  margin: 0;
+  padding: 0;
+  
+} */
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: var(--primary-bg);
+  color: aliceblue;
+ 
+}
+
+html{
+  overflow-x: hidden;
+}
+
+:root{
+  --primary-bg:#09090B;
+  --secondary-bg:#141319;
+  --tertiary-bg:#17171C;
+}
+
+.sp-text{
+
+ /* background-image: conic-gradient(at top, #818cf8, #4f46e5);
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent; */
+
+background-image: linear-gradient(to top left, #818cf8, #4f46e5);
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+
+}
+
+
+.icon{
+  padding: 15px;
+  font-size: 18px;
+  border: 1px solid #201f1f;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: var(--secondary-bg);
+}
+
+
+
+
+.main-logo{
+  font-size: xx-large;
+  border-radius: 10%;
+ 
+}
